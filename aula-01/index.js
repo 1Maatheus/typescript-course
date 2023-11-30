@@ -1,6 +1,4 @@
-var firstName = "Matheus";
-var anotherName = "Nayara";
-function greeting(name) {
-    console.log("Ol\u00E1, ".concat(firstName, "!"));
+function sum(n1, n2) {
+    return "Resultado da soma: ".concat(n1 + n2);
 }
-greeting(firstName);
+console.log(sum(98, 90));

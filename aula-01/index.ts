@@ -1,9 +1,5 @@
-const firstName = "Matheus";
-const anotherName = "Nayara";
-const x = true;
-
-function greeting(name: string) {
-  console.log(`Olá, ${firstName}!`);
+function sum(n1: number, n2: number) {
+  return `Resultado da soma: ${n1 + n2}`;
 }
 
-greeting(firstName);
+console.log(sum(98, 90));
