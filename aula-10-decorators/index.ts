@@ -119,7 +119,7 @@ function formatNumber() {
       return value;
     };
 
-    const setter = function (newVal: string) {
+    const setter = function (newVal: any) {
       value = newVal.padStart(5, "0");
     };
 
