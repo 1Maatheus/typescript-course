@@ -1,5 +1,7 @@
 import React from "react";
 import FirstComponent from "./components/FirstComponent";
+import SecondComponent from "./components/SecondComponent";
+import Destructuring from "./components/Destructuring";
 
 function App() {
   //Variables
@@ -23,6 +25,13 @@ function App() {
         </div>
       )}
       <FirstComponent />
+      <SecondComponent name="Segundo!" />
+      <Destructuring
+        title="Primeiro post!"
+        content="Algum conteúdo!"
+        commentsQty={10}
+        tags={["TS", "Java"]}
+      />
       <h3>{userGreeting(name)}</h3>
     </div>
   );
