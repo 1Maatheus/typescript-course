@@ -2,6 +2,7 @@ import React from "react";
 import FirstComponent from "./components/FirstComponent";
 import SecondComponent from "./components/SecondComponent";
 import Destructuring from "./components/Destructuring";
+import State from "./components/State";
 
 function App() {
   //Variables
@@ -32,6 +33,7 @@ function App() {
         commentsQty={10}
         tags={["TS", "Java"]}
       />
+      <State />
       <h3>{userGreeting(name)}</h3>
     </div>
   );
