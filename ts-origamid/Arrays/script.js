@@ -1,5 +1,5 @@
 "use strict";
-//Arrays
+// Arrays
 // const numeros = [10, 20, 30, 40, 50];
 // const valores = [10, "Taxas", 30, "Produto", 50, 3];
 // function maiorQue10(data: number[]) {
