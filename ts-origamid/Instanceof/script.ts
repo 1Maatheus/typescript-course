@@ -12,7 +12,7 @@ class Produto {
   }
 }
 const livro = new Produto("O senhor dos anéis.", 198);
-console.log(livro.precoReal());
+// console.log(livro.precoReal());
 
 //Instanceof - verifica se o objeto e uma instância de determinado tipo.
 class Livro {
@@ -51,3 +51,17 @@ const link = document.getElementById("origamid");
 if (link instanceof HTMLAnchorElement) {
   link.href = link.href.replace("http://", "https://");
 }
+
+//Exercício:
+const links = document.querySelectorAll(".link");
+
+function ativarElemento(elemento: HTMLElement) {
+  elemento.style.color = "blue";
+  elemento.style.border = "1px solid red";
+}
+
+links.forEach((link) => {
+  if (link instanceof HTMLElement) {
+    ativarElemento(link);
+  }
+});
