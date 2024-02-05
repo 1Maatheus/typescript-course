@@ -39,3 +39,8 @@ const produto = buscarProduto("O Hobbit");
 if (produto instanceof Livro) {
     produto.autor;
 }
+//Exercício:
+const link = document.getElementById("origamid");
+if (link instanceof HTMLAnchorElement) {
+    link.href = link.href.replace("http://", "https://");
+}
