@@ -56,7 +56,7 @@ const produto3 = {
 
 function mostrarQuantidade(produto: Partial<Produto>) {
   // erro, quantidade pode ser undefined
-  console.log(produto.quantidade + 20);
+  // console.log(produto.quantidade + 20);
 }
 
 mostrarQuantidade(produto1);

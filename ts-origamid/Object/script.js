@@ -37,7 +37,7 @@ const produto3 = {
 };
 function mostrarQuantidade(produto) {
     // erro, quantidade pode ser undefined
-    console.log(produto.quantidade + 20);
+    // console.log(produto.quantidade + 20);
 }
 mostrarQuantidade(produto1);
 mostrarQuantidade(produto2);
