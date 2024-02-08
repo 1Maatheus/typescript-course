@@ -8,12 +8,59 @@
         font-size: 1.25rem;
         font-family: sans-serif;
         margin: 2rem;
-        background-color: aliceblue;
+        background-color: #fff;
+      }
+
+      table {
+        border-spacing: 0;
+        text-align: left;
+      }
+
+      table td,
+      table th {
+        padding: 0.5rem 1rem;
+      }
+
+      table tr:nth-child(even) {
+        background-color: ghostwhite;
+      }
+
+      h2,
+      h3,
+      p {
+        margin-left: 1rem;
+      }
+
+      h2 {
+        border-top: 6px solid ghostwhite;
+        padding-top: 1rem;
+      }
+
+      div {
+        border-top: 3px solid ghostwhite;
       }
     </style>
     <title>TypeScript Data</title>
   </head>
   <body>
+    <h2>Estatísticas</h2>
+    <p id="total">Total: <span></span></p>
+    <div id="pagamento" class="p"><h3>Formas de pagamentos:</h3></div>
+    <div id="status" class="p"><h3>Status:</h3></div>
+    <p id="dia">Dia com mais vendas: <span></span></p>
+    <h2>Dados</h2>
+    <table id="transacoes">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Email</th>
+          <th>Compra</th>
+          <th>Pagamento</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
     <script type="module" src="./dist/script.js"></script>
   </body>
 </html>
